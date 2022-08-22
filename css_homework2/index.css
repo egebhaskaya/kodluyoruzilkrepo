@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 200px;
+}
+
+.google-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: lightgray;
+}
+
+.search-text {
+  margin-top: 3px;
+}
+
+.search-input {
+  width: 350px;
+  height: 20px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.search-button-group {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+
+.search-button {
+  margin-bottom: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  background-color: aqua;
+  margin-right: 3px;
+  margin-top: 3px;
+  height: 80px;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 20%;
+  background-color: aqua;
+  height: 80px;
+  margin-right: 3px;
+  margin-top: 3px;
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aqua;
+  width: 40%;
+  height: 80px;
+  margin-top: 3px;
+  gap: 2px;
+}
