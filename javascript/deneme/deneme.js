@@ -1,2 +1,4 @@
-let egeBolgesi = ["izmir", "aydın", "muğla", "denizli", "manisa"];
-console.log(egeBolgesi[3]);
+function yaz() {
+  console.log("Merhaba Kodluyoruz");
+}
+console.log(yaz["name"]);
