@@ -1,4 +1,5 @@
-function yaz() {
-  console.log("Merhaba Kodluyoruz");
-}
-console.log(yaz["name"]);
+(function() {
+  var a = b = 5;
+})();
+
+console.log(b);
