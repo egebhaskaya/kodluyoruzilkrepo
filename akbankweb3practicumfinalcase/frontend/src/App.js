@@ -14,13 +14,11 @@ function App() {
   const [address, setAddres] = useState(null);
   const contractAddress = "0xD049a50A50cAa17fcA7f2979251E2c8D7a89DFDa";
 
+  //contract instance initiation
   useEffect(() => {
-    const enableContract = async () => {
-      const web3 = new Web3(window.ethereum);
-      const contract = new web3.eth.Contract(contractABI, contractAddress);
-      setContract(contract);
-    };
-    enableContract();
+    const web3 = new Web3(window.ethereum);
+    const contract = new web3.eth.Contract(contractABI, contractAddress);
+    setContract(contract);
   }, []);
 
   //connect to metamask
